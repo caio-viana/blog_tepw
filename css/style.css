@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@400;500&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Recursive', sans-serif;
+}
+
+h2 {
+    color: #fff;
+    background: black;
+}
+
+header {
+    margin: 10px;
+}
+
+.nome {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.icones {
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.nav2 {
+    background: black;
+    margin-bottom: 50px;
+}
+
+.nav2 a {
+    color: #fff;
+}
+
+.nav2 a:hover {
+    color: gray;
+}
+
+.carrosel {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.carousel-inner img {
+    margin: auto;
+    width: 400px;
+    height: 400px;
+  }
+
+.sobre {
+    margin-bottom: 50px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    border: 2px solid black;
+    border-radius: 20%;
+  }
+
+.card img {
+    border-radius: 23%;
+}
+.textosobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
+.curriculo {
+    margin-bottom: 50px;
+}
+
+.blog {
+    margin-bottom: 50px;
+}
+
+.postblog {
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.contato {
+    margin-bottom: 50px;
+}
+
+.botao {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: center;
+    margin-top: 70px;
+}
+
+footer {
+    background-color: black;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: right;
+    text-align: right;
+}
+
+footer i {
+    color: #fff;
+}

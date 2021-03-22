@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="/img/braces.svg" type="image/x-icon">
+    <title>Blog | Caio Viana</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-light justify-content-between">
+                <a class="navbar-brand nome" id="up" href="#">Caio V.</a>
+                <form class="form-inline">
+                    <a class="icones" href="https://www.linkedin.com/in/caioviana121/"><svg
+                            xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="black"
+                            class="bi bi-linkedin" viewBox="0 0 16 16">
+                            <path
+                                d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                        </svg>
+                    </a>
+                    <a class="icones" href="https://github.com/caio-viana"><svg xmlns="http://www.w3.org/2000/svg"
+                            width="28" height="28" fill="black" class="bi bi-github" viewBox="0 0 16 16">
+                            <path
+                                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+                        </svg>
+                    </a>
+                    <input class="form-control mr-sm-2" type="search" placeholder="search...">
+                    <button class="btn btn-outline-dark" type="button"><svg xmlns="http://www.w3.org/2000/svg"
+                            width="14" height="14" fill="black" class="bi bi-search" viewBox="0 0 16 16">
+                            <path
+                                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                        </svg>
+                    </button>
+                </form>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container nav2">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="#">Início<span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="#sobre">Sobre</a>
+                    <a class="nav-item nav-link" href="#curriculo">Currículo</a>
+                    <a class="nav-item nav-link" href="#blog">Blog</a>
+                    <a class="nav-item nav-link" href="#contato">Contato</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container carrosel">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="/img/one.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="/img/two.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="/img/three.jpg" alt="Third slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+    <div class="container sobre">
+        <h2 id="sobre">Sobre</h2>
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="card" style="width: 14rem;">
+                    <img class="card-img-top" src="/img/caio.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Oi, eu sou o Caio.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8 textosobre">
+                <p>Ex-aluno do técnico integrado em informática do IFCE, que tem como finalidade a qualificação de
+                    profissionais para o mercado da TI, com foco em programação, redes e sistemas de computadores. </p>
+                <p>Atualmente, aluno de Sistemas de Informação na Unichristus, onde planejo desenvolver habilidades de
+                    desenvolvimento e gerenciamento de sistemas.</p>
+                <p>Trabalho como Assessor de Suporte, na Mercadapp, em que presto serviços de suporte aos clientes e
+                    apoio em integrações de novos sistemas.</p>
+                <iframe width="100%" height="300px" src="//www.youtube.com/embed/Bn_d-ghQ5HA" frameborder="0"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+    </div>
+
+    <div class="container curriculo">
+        <h2 id="curriculo">Currículo</h2>
+        <div class="row">
+            <div class="primeiracoluna col-lg-6">
+                <h5><strong>Caio Viana Souza</strong></h5>
+                <ul>
+                    <li>Estado civil: Solteiro</li>
+                    <li>Data de nascimento: 09/05/1999</li>
+                    <li>Idade: 21 anos</li>
+                    <li>Nacionalidade: Brasileiro</li>
+                </ul>
+                <h5>Contato:</h5>
+                <ul>
+                    <li>(85) 98834-0187 (Oi)</li>
+                    <li>caioviana121@gmail.com</li>
+                </ul>
+                <h5>Endereço:</h5>
+                <p>Rua Sabiá, 428 - Apt 305</p>
+                <p>Bonsucesso - Fortaleza - CE</p>
+                <p>CEP: 60520-515</p>
+                <h5>Cursos:</h5>
+                <ul>
+                    <li>Técnico Integrado em Informática -
+                        Instituto Federal de Educação, Ciência
+                        e Tecnologia do Ceará (IFCE)</li>
+                </ul>
+            </div>
+            <div class="segundacoluna col-lg-6">
+                <h5>Escolaridade:</h5>
+                <ul>
+                    <li>Graduação - Em andamento | Sistemas de Informação -
+                        Unichristus</li>
+                </ul>
+                <h5>Experiências profissionais:</h5>
+                <ul>
+                    <li>Empresa: MERCADAPP</li>
+                    <li>Período: 18/01/2021 - atualmente</li>
+                    <li>Cargo: Assessor de Suporte</li>
+                    <li>Atividades exercidas: Suporte ao usuário e apoio em integrações de sistemas.</li>
+                </ul>
+                <ul>
+                    <li>Empresa: SUPER DO POVO</li>
+                    <li>Período: 20/02/2019 - 15/01/2021</li>
+                    <li>Cargo: Assistende de TI</li>
+                    <li>Atividades exercidas: Gerenciamento de equipamentos, monitoramento de
+                        rede, suporte ao usuário.</li>
+                </ul>
+                <h5>Qualificações e informações adicionais:</h5>
+                <ul>
+                    <li>Inglês básico</li>
+                    <li>Conhecimento básico no Pacote Office</li>
+                    <li>CNH - Categoria B</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container blog">
+        <h2 id="blog">Blog</h2>
+        <h4>Title 1</h4>
+        <div class="row postblog">
+            <div class="col-lg-4">
+                <img src="http://joern-duwe.de/aquaristik/images/skalare00.jpg" alt="post img"
+                    class="pull-left img-responsive postImg img-thumbnail margin10">
+                <span class="badge">Posted 2012-08-02 20:47:04</span>
+            </div>
+            <div class="col-lg-8">
+                <article>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text
+                        ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+                        type specimen book. It has survived not only
+                        five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                        It was popularised in the 1960s with the release
+                        of Letraset sheets containing Lorem Ipsum passages.</p>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text five centuries, but also the leap into electronic
+                        typesetting, remaining essentially unchanged.
+                        It was popularised in the 1960s with the release
+                        of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+                        software like Aldus PageMaker including versions of
+                        Lorem Ipsum.</p>
+                    <br>
+                    <iframe width="100%" height="300px" src="//www.youtube.com/embed/Bn_d-ghQ5HA" frameborder="0"
+                        allowfullscreen></iframe>
+                </article>
+            </div>
+        </div>
+
+        <h4>Title 2</h4>
+        <div class="row postblog">
+            <div class="col-lg-4">
+                <img src="http://joern-duwe.de/aquaristik/images/skalare00.jpg" alt="post img"
+                    class="pull-left img-responsive postImg img-thumbnail margin10">
+                <span class="badge">Posted 2012-08-02 20:47:04</span>
+            </div>
+            <div class="col-lg-8">
+                <article>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                        been
+                        the industry's standard dummy text
+                        ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+                        a
+                        type specimen book. It has survived not only
+                        five centuries, but also the leap into electronic typesetting, remaining essentially
+                        unchanged.
+                        It was popularised in the 1960s with the release
+                        of Letraset sheets containing Lorem Ipsum passages.</p>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                        been
+                        the industry's standard dummy text five centuries, but also the leap into electronic
+                        typesetting, remaining essentially unchanged.
+                        It was popularised in the 1960s with the release
+                        of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                        publishing
+                        software like Aldus PageMaker including versions of
+                        Lorem Ipsum.</p>
+                    <br>
+                    <iframe width="100%" height="300px" src="//www.youtube.com/embed/Bn_d-ghQ5HA" frameborder="0"
+                        allowfullscreen></iframe>
+                </article>
+            </div>
+        </div>
+
+        <h4>Title 3</h4>
+        <div class="row postblog">
+            <div class="col-lg-4">
+                <img src="http://joern-duwe.de/aquaristik/images/skalare00.jpg" alt="post img"
+                    class="pull-left img-responsive postImg img-thumbnail margin10">
+                <span class="badge">Posted 2012-08-02 20:47:04</span>
+            </div>
+            <div class="col-lg-8">
+                <article>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                        been
+                        the industry's standard dummy text
+                        ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+                        a
+                        type specimen book. It has survived not only
+                        five centuries, but also the leap into electronic typesetting, remaining essentially
+                        unchanged.
+                        It was popularised in the 1960s with the release
+                        of Letraset sheets containing Lorem Ipsum passages.</p>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                        been
+                        the industry's standard dummy text five centuries, but also the leap into electronic
+                        typesetting, remaining essentially unchanged.
+                        It was popularised in the 1960s with the release
+                        of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                        publishing
+                        software like Aldus PageMaker including versions of
+                        Lorem Ipsum.</p>
+                    <br>
+                    <iframe width="100%" height="300px" src="//www.youtube.com/embed/Bn_d-ghQ5HA" frameborder="0"
+                        allowfullscreen>
+                    </iframe>
+                </article>
+            </div>
+        </div>
+    </div>
+
+    <div class="container contato">
+        <h2 id="contato">Contato</h2>
+        <p>Para entrar em contato comigo: </p>
+        <form>
+            <div class="row">
+                <div class="col-lg-6">
+                    <label for="nome">Nome:</label>
+                    <input type="text" class="form-control" id="nome" placeholder="nome">
+                </div>
+                <div class="col-lg-6">
+                    <label for="sobrenome">Sobrenome:</label>
+                    <input type="text" class="form-control" id="sobrenome" placeholder="sobrenome">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <label for="email">E-mail:</label>
+                    <input type="email" class="form-control" id="email" placeholder="e-mail">
+                </div>
+                <div class="col-lg-6">
+                    <label for="assunto">Assunto:</label>
+                    <input type="text" class="form-control" id="assunto" placeholder="assunto">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8">
+                    <label for="mensagem">Sua mensagem:</label>
+                    <textarea class="form-control" id="mensagem" rows="3"></textarea>
+                </div>
+                <div class="col-lg-4 botao">
+                    <button type="submit" class="btn btn-dark">Enviar</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>Blog pessoal desenvolvido por:</p>
+            <p>&copy; Caio Viana.</p>
+            <p><span><a href="#up"><i class="fas fa-arrow-up"></i></a></span></p>
+        </div>
+    </footer>
+
+
+    <script src="https://kit.fontawesome.com/c95cb18324.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
